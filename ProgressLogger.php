@@ -274,8 +274,9 @@ class ProgressLogger
             $str .= " - (";
             $str .= $this->getTimeLeftStringInShortFormat($seconds).")";
         }
-        Datahub_Utils_Logger::logMessage($str);
+        $this->logMessage($str);
     }
+    
 
     /**
      * Returns estimated time left in days, hours, minutes and/or seconds based off seconds
@@ -323,6 +324,11 @@ class ProgressLogger
 
     protected function setLogEveryX(int $x){
         $this->logEveryX = $x;
+    }
+    
+    
+    protected function logMessage(string $message, $newLine = true) {
+         echo ($newLine) ? $message."\n" : $message;
     }
 
 }
