@@ -22,7 +22,7 @@ class ProgressLogger
      * ╚══════╝░╚════╝░░╚═════╝░░╚═════╝░╚══════╝╚═╝░░╚═╝
      * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
      *
-     * ADVANCED LOGGER : @url https://github.com/vannieuwenhovej/phpprogresslogger
+     * ADVANCED LOGGER : @url https://github.com/vannieuwenhovej/php-progress-logger
      * USAGE: instantiate object at beginning of script or before loop like $logger = new ProgressLogger(...)
      * In the loop run $logger->log("optional message") to log whenver the batchsize is reached.
      * The logger will only log at each batchSize you give in the constructor. It won't log every time it is called.
