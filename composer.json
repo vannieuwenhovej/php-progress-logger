@@ -1,5 +1,5 @@
 {
-    "name": "vannieuwenhove/php-progress-logger",
+    "name": "vannieuwenhovej/php-progress-logger",
     "type": "library",
     "description": "Logging for PHP ^7.0",
     "keywords": ["log","logging", "progress"],
