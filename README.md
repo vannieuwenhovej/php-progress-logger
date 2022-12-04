@@ -17,3 +17,5 @@ and in loop:
            $totalDone++; 
            $logger->log($totalDone);
         }
+# Output
+`46.12% Processed 45500 Records in 192s - (2 hours & 14 mins left)`
