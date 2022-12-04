@@ -4,7 +4,7 @@
     "description": "Logging for PHP ^7.0",
     "keywords": ["log","logging", "progress"],
     "homepage": "https://github.com/vannieuwenhovej/php-progress-logger",
-    "license": "CC",
+    "license": "CC-BY-1.0",
     "authors": [
         {
             "name": "Jonathan Van Nieuwenhove",
