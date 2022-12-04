@@ -1,6 +1,6 @@
 <?php
 
-namespace vannieuwenhovej\ProgressLogger;
+namespace vannieuwenhovej;
 
 class ProgressLogger
 {
