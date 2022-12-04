@@ -11,8 +11,9 @@ https://packagist.org/packages/vannieuwenhovej/php-progress-logger
       $logger = new vannieuwenhovej\ProgressLogger($total, 500);
       $totalDone= 0;
 and in loop:
-      foreach($objects as $object){
-          //do something;
-          $totalDone++; 
-          $logger->log($totalDone);
-       }
+
+       foreach($objects as $object){
+           //do something;
+           $totalDone++; 
+           $logger->log($totalDone);
+        }
