@@ -1,0 +1,24 @@
+{
+    "name": "vannieuwenhove/php-progress-logger",
+    "type": "library",
+    "description": "Logging for PHP ^7.0",
+    "keywords": ["log","logging", "progress"],
+    "homepage": "https://github.com/vannieuwenhovej/php-progress-logger",
+    "license": "CC",
+    "authors": [
+        {
+            "name": "Jonathan Van Nieuwenhove",
+            "email": "vn_jonathan@hotmail.be",
+            "homepage": "https://jonathanvannieuwenhove.be",
+            "role": "Data Engineer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "ProgressLogger": "ProgressLogger.php"
+        }
+    }
+}
