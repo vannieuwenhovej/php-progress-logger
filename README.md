@@ -8,11 +8,11 @@ https://packagist.org/packages/vannieuwenhovej/php-progress-logger
 `composer require vannieuwenhovej/php-progress-logger`
 
 # Example / Usage
-   $logger = new vannieuwenhovej\ProgressLogger($total, 500);
-  $totalDone= 0;`
+      $logger = new vannieuwenhovej\ProgressLogger($total, 500);
+      $totalDone= 0;`
 and in loop:
-  `foreach($objects as $object){
-    //do something;
-    $totalDone++; 
-    $logger->log($totalDone);
-  }`
+      `foreach($objects as $object){
+          //do something;
+          $totalDone++; 
+          $logger->log($totalDone);
+       }`
